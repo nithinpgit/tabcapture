@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/EDQK8l-VPZs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+</body>
+</html>
+<script>
+window.postMessage({
+                actionName: 'start',
+                presentationID: '123456',
+                accountToken: '123456',
+                options : {}
+            }, "*");
+
+alert('posted');
+</script>
